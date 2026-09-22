@@ -7,11 +7,10 @@ struct Student
     char name[50];
     float attendance;
 };
-
 struct Student students[100];
 int n = 0;
 
-// Add Student
+// For Add Student
 void addStudent()
 {
     printf("Enter Name: ");
@@ -28,7 +27,7 @@ void addStudent()
     printf("Student added successfully!\n");
 };
 
-// Display Students
+// For Display Students
 void displayStudents()
 {
     int i;
@@ -49,7 +48,7 @@ void displayStudents()
     }
 }
 
-// Search Student
+// For Search Student
 void searchStudent()
 {
     int roll, i;
@@ -78,7 +77,7 @@ void searchStudent()
     }
 }
 
-// Delete Student
+// ForDelete Student
 void deleteStudent()
 {
     int roll, i, j;
